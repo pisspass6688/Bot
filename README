@@ -6,7 +6,7 @@
 - pkg update
 - pkg install python
 - pkg install git
-- git clone 
+- git clone https://github.com/pisspass6688/Bot.git
 - cd tds_tiktok
 - python tds.py
 
