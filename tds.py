@@ -87,8 +87,8 @@ os.system('clear')
 banner = r'''
 ===================================================================================
 
-    ██╗  ██╗ ███████╗ ███╗   ██╗    ██████████╗          ████████╗██████╗ ███████╗
-    ██║ ██╔╝ ██╔════╝ ████╗  ██║    ╚═════███╔╝          ╚══██╔══╝██╔══██╗██╔════╝
+ ██╗  ██╗ ███████╗ ███╗   ██╗    ██████████╗          ████████╗██████╗ ███████╗
+ ██║ ██╔╝ ██╔════╝ ████╗  ██║    ╚═════███╔╝          ╚══██╔══╝██╔══██╗██╔════╝
 	█████╔╝  █████╗   ██╔██╗ ██║         ███╔╝              ██║   ██║  ██║███████╗
 	██╔═██╗  ██╔══╝   ██║╚██╗██║        ███╔╝               ██║   ██║  ██║╚════██║
 	██║  ██╗ ███████╗ ██║ ╚████║     ███████████╗           ██║   ██████╔╝███████║
@@ -108,7 +108,7 @@ Danh sách lựa chọn: {Colors.red}
 {Colors.yellow}{gach}
 '''
 print(Colorate.Horizontal(Colors.yellow_to_red, Center.XCenter(banner)))
-print(Colors.red + Center.XCenter(Box.DoubleCube("Tool TDS tiktok free version 1.0")))
+print(Colors.red + Center.XCenter(Box.DoubleCube("Tool TDS tiktok free version 1.5")))
 
 
 while True:
@@ -177,8 +177,7 @@ if check_log == 'success':
 		else:
 			os.system('clear')
 			print(Colors.red + f"Lỗi sever vui lòng nhập lại!\n")
-
-	#Lựa chọn nhiệm vụ		
+		
 	while True:
 		print(option)
 		try:
@@ -205,7 +204,6 @@ if check_log == 'success':
 			os.system('clear')
 			print(Colors.red + f"Vui lòng nhập một số > 2\n")
 
-	#Nhập max nhiệm vụ
 	while True:
 		try:
 			max_job = int(Write.Input("Dừng lại khi làm được số nhiệm vụ là:", Colors.green_to_yellow, interval=0.0025))
