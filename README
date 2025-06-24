@@ -1,0 +1,20 @@
+# tds_tiktok
+- KenZ Tool auto traodoisub tiktok 
+
+# Lệnh setup Tool
+- apt update
+- pkg update
+- pkg install python
+- pkg install git
+- git clone 
+- cd tds_tiktok
+- python tds.py
+
+# Lệnh Chạy
+- python KenZ.py
+
+# Công cụ kết hợp
+- Termux
+- Macrorify
+- Tiktok hoặc tiktok lite
+- Link tải termux và Macrorify https://drive.google.com/drive/folders/1MsLq81u2PWxQGVo4QdsE1z2uVEIfm5s_?usp=sharing
